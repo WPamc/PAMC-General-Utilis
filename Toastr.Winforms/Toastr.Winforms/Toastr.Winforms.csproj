@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>Toastr.Winforms</RootNamespace>
+    <AssemblyName>Toastr.Winforms</AssemblyName>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Toastr.Winforms</PackageId>
+    <Title>Toastr for Windows Forms</Title>
+    <Version>6.1.0</Version>
+    <Authors>Nodirbek Abdulakhadov</Authors>
+    <Company>MDevs Group</Company>
+    <Product>Toast.Winforms</Product>
+    <Description>Toastr for Windows Forms. Very easy to use!</Description>
+    <RepositoryUrl>https://github.com/Nodirbek-Abdulaxadov/Toastr.Winforms</RepositoryUrl>
+    <PackageIcon>success_icon.png</PackageIcon>
+    <PackageReleaseNotes>Sound effects added
+
+</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Resources\success_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Properties\Resources.resx" />
+    <EmbeddedResource Remove="Toast.resx" />
+    <EmbeddedResource Include="Resources\*.png" />
+    <EmbeddedResource Include="Resources\*.wav" />
+  </ItemGroup>
+
+</Project>

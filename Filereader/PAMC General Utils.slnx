@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/PAMC/">
+    <Project Path="../../pamc_c/PAMC/PAMC.Utilities.CPSTools/PAMC.Utilities.CPSTools.csproj" />
+    <Project Path="../../pamc_c/PAMC/PAMC.Utilities.Mapping/PAMC.Utilities.Mapping.csproj" />
+    <Project Path="../../pamc_c/Projects/PAMC/Libraries/PAMC.Formats/PAMC.Formats.csproj" />
+  </Folder>
+  <Project Path="../ExcelMapper/ExcelMapper.csproj" Id="5b9ea1c7-16e9-4b5f-ad4d-63b7b482bf66" />
+  <Project Path="Filereader.csproj" Id="a9203a34-3231-4739-ae40-2d15d0904a02" />
+  <Project Path="Toastr.Winforms/Toastr.Winforms.csproj" Id="b8a03a34-3231-4739-ae40-2d15d0904a02" />
+</Solution>

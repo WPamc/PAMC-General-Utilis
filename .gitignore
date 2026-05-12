@@ -1,0 +1,78 @@
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows
+.BIN/
+*.lnk
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.next/
+.nuxt/
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Visual Studio / .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Archives / generated
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.old

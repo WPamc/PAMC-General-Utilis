@@ -1,0 +1,57 @@
+{
+  "Formats": [
+    {
+      "DisplayName": "Medihelp ERA",
+      "RecordTypeNames": [
+        "PAMC.Formats.Medihelp.ERAServiceProviderHeaderRecord, PAMC.Formats",
+        "PAMC.Formats.Medihelp.ERAServiceProviderTrailerRecord, PAMC.Formats",
+        "PAMC.Formats.Medihelp.ERABatchFileTrailerRecord, PAMC.Formats",
+        "PAMC.Formats.Medihelp.ERADetailRecord, PAMC.Formats",
+        "PAMC.Formats.Medihelp.ERABatchFileHeader, PAMC.Formats"
+      ],
+      "SelectorTypeName": "PAMC.Formats.Medihelp.ERASelector, PAMC.Formats",
+      "SelectorMethodName": "ERAClaimSelector",
+      "CuratedFields": [
+        "PrincipalMemberSurname",
+        "MembershipNumberProductCode",
+        "PatientName",
+        "AccountNumber",
+        "SchemeClaimNumber",
+        "TariffCode",
+        "ServiceDate",
+        "SchemePaymentIndicator",
+        "ClaimedAmount",
+        "AmountPaid",
+        "RejectionCode",
+        "RejectionDescription"
+      ],
+      "MasterColumns": [
+        {
+          "Name": "SchemeClaimNumber",
+          "DataType": "System.String",
+          "IsPrimaryKey": true
+        },
+        {
+          "Name": "PrincipalMemberSurname",
+          "DataType": "System.String",
+          "IsPrimaryKey": false
+        },
+        {
+          "Name": "MembershipNumberProductCode",
+          "DataType": "System.String",
+          "IsPrimaryKey": false
+        },
+        {
+          "Name": "PatientName",
+          "DataType": "System.String",
+          "IsPrimaryKey": false
+        },
+        {
+          "Name": "AccountNumber",
+          "DataType": "System.String",
+          "IsPrimaryKey": false
+        }
+      ]
+    }
+  ]
+}
